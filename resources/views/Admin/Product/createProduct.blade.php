@@ -1,3 +1,4 @@
+
 <form action="{{route("products.store")}}" method="post">
     @method("post")
     @csrf
