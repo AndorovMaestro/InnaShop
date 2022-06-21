@@ -24,7 +24,7 @@
                   <a href="{{route("products.show",['product'=>$item->id])}}" class="btn btn-sm btn-outline-primary">Посмотреть</a>
                   <a href="{{route("products.edit",['product'=>$item->id])}}" class="btn btn-sm btn-outline-secondary">Изменить</a>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">Изменено: {{$item->updated_at}}</small>
               </div>
             </div>
           </div>
